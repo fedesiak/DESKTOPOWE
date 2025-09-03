@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1756899418 source:c:\users\egzamin\desktop\zad2\main.cpp
+	<iostream>
+	<time.h>
+	<stdlib.h>
+

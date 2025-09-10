@@ -1,0 +1,74 @@
+#include <iostream>
+
+using namespace std;
+
+class Tablica{
+int *tab = new int[10];
+public:                     //wszystko po public jest publiczne, reszta prywatna
+
+void wypelnianie(){           //metody
+for(int i=0;i<10;i++){
+    cin>>tab[i];
+}
+}
+
+
+void wypisanie(){
+for(int i=0;i<10;i++){
+    cout<<tab[i]<<" ";
+}
+}
+
+//private:
+int szukajMax(){
+    int maks=tab[0];
+    for(int i=0;i<10;i++){
+    if(maks<tab[i]){
+        maks=tab[i];
+    }
+    }
+    return maks;
+
+}
+
+
+int szukajMaxOdPozycji(int poz){
+    int maks=tab[poz];
+    for(int i=poz+1;i<10;i++){
+    if(maks<tab[i]){
+        maks=tab[i];
+    }
+    }
+    return maks;
+
+}
+
+public:
+void sortowanie(){
+    int temp;
+     int maksi;
+    for(int i=0;i<10;i++){
+
+        maksi=this->szukajMaxOdPozycji(i);
+        temp=tab[i];
+        tab[i]=maksi;
+        maksi=temp;
+    }
+}
+
+
+};
+
+int main()
+{
+    cout << "podaj elementy do tablicy: " << endl;
+    Tablica tab;       //z programowania obiektowego upublicznione metody wykorzystujemy w main
+    tab.wypelnianie();
+    tab.wypisanie();
+    cout<<endl<<endl;
+    cout<<tab.szukajMax()<<endl;
+    cout<<tab.szukajMaxOdPozycji(3)<<endl<<endl;
+    tab.sortowanie();
+    tab.wypisanie();
+    return 0;
+}

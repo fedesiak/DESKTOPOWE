@@ -1,0 +1,15 @@
+GŁOWA LISTY
+dane : wskaźnik -> dane : wskaźnik -> dane : wskaźnik -> null
+
+
+
+
+dynamiczna struktura danych jest ciagiem powiazanych ze sobą zmiennych dynamicznych, ktorych liczba nie jest znana
+w czasie kompilacji i uruchamiania programów.
+
+lista jest złożoną dynamiczną strukturą danych, która przechowuje dane wraz z zapamiętaniem ich kolejności, w 
+przeciwieństwie do tablicy elementy listy nie muszą być położone w sąsiednich komórkach pamięci. Najważniejszą 
+cechą listy jest mozliwosc dolaczania elementow bez definiowania uprzednio ich liczby
+
+na poczatku tworzenia listy deklarujemy pierwszy element, czyli jej głowę. Głowa jest jednocześnie indentyfikatorem 
+listy

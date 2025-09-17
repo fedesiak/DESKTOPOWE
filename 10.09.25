@@ -33,10 +33,10 @@ int szukajMax(){
 
 
 int szukajMaxOdPozycji(int poz){
-    int maks=tab[poz];
+    int maks=poz;
     for(int i=poz+1;i<10;i++){
-    if(maks<tab[i]){
-        maks=tab[i];
+    if(tab[maks]<tab[i]){
+        maks=i;
     }
     }
     return maks;
@@ -51,8 +51,8 @@ void sortowanie(){
 
         maksi=this->szukajMaxOdPozycji(i);
         temp=tab[i];
-        tab[i]=maksi;
-        maksi=temp;
+        tab[i]=tab[maksi];
+        tab[maksi]=temp;
     }
 }
 

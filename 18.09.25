@@ -1,0 +1,94 @@
+#include <iostream>
+
+using namespace std;
+struct Przedmiot{
+    string nazwa;
+    float cena;
+    Przedmiot *next;
+};
+
+Przedmiot *usun(Przedmiot *head, string nazwaDoUsuniecia){
+    Przedmiot *temp;
+    temp=head;
+    Przedmiot *poprzedni = head;
+    while(temp!=NULL){
+        if(temp->nazwa==nazwaDoUsuniecia){
+            if(temp==head){
+                head = head->next;
+                delete temp;
+                temp = head;
+                poprzedni=head;
+
+
+            }
+            else{
+                    poprzedni->next = temp->next;
+                    delete temp;
+                    temp = poprzedni->next;
+
+
+            }
+
+        }
+        else{
+                poprzedni = temp;
+        temp=temp->next;
+
+        }
+    }
+    return head;
+
+}
+
+int main()
+{
+    Przedmiot *head = NULL;
+    Przedmiot *tail = NULL;
+    string nazwaDoUsuniecia;
+    char d;
+
+    Przedmiot *nowy;
+     do{
+    nowy = new Przedmiot;
+    cout << "Podaj nazwe przedmiotu" << endl;
+    cin >> nowy->nazwa;
+    cout << "Cena przedmiotu: "<<endl;
+    cin >> nowy->cena;
+    nowy->next= NULL;
+    if(head==NULL){
+        head = nowy;
+        tail = nowy;
+    }
+    else{
+    tail->next = nowy;
+    tail = nowy;
+    }
+
+    cout << "Czy chcesz podac kolejny element do listy (t/n)" <<endl;
+    cin >> d;
+    }
+    while(d=='t');
+    cout << "lista przedmiotow:" <<endl;
+
+    Przedmiot *temp =head;
+    while(temp!=NULL)
+    {
+        cout << temp->nazwa << " cena "<<temp->cena << " zl "<<endl;
+        temp=temp->next;
+
+    }
+
+    cout<<"Przedmiot o jakiej nazwie chcesz usun¹æ?"<<endl;
+    cin>>nazwaDoUsuniecia;
+    head=usun(head, nazwaDoUsuniecia);
+    cout<<"Lista przedmiotow po usunieciu: "<<endl;
+temp =head;
+    while(temp!=NULL)
+    {
+        cout << temp->nazwa << " cena "<<temp->cena << " zl "<<endl;
+        temp=temp->next;
+
+    }
+
+    return 0;
+}

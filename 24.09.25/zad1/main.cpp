@@ -2,7 +2,7 @@
 
 using namespace std;   //      -----wskazniki dwukierunkowe-----
 
-struct Uczen{
+struct Uczen{  //zadeklaruj strukture
     string imie;  //naucz sie tych deklaracji
     int wzrost;
     Uczen *next; //wskazniki
@@ -38,7 +38,7 @@ int main()
     }
     else{              //w innym wypadku
         temp = glowa;  //podstawiamy temp pod glowe
-        while(temp->next!=NULL){  //dopóki temp nie jest pusty
+        while(temp->next!=NULL){  //dopÃ³ki temp nie jest pusty
             temp=temp->next;     //przesuwamy temp o nastepne pole
 
         }
@@ -77,3 +77,4 @@ int main()
 
     return 0;
 }
+

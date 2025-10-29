@@ -1,0 +1,11 @@
+C:\Users\Uczeń\Desktop\tablica dwuwymiarowa\tablica dwuwymiarowa\bin\Debug\tablica dwuwymiarowa.exe.config
+C:\Users\Uczeń\Desktop\tablica dwuwymiarowa\tablica dwuwymiarowa\bin\Debug\tablica dwuwymiarowa.exe
+C:\Users\Uczeń\Desktop\tablica dwuwymiarowa\tablica dwuwymiarowa\bin\Debug\tablica dwuwymiarowa.pdb
+C:\Users\Uczeń\Desktop\tablica dwuwymiarowa\tablica dwuwymiarowa\obj\Debug\tablica dwuwymiarowa.csproj.AssemblyReference.cache
+C:\Users\Uczeń\Desktop\tablica dwuwymiarowa\tablica dwuwymiarowa\obj\Debug\tablica_dwuwymiarowa.Form1.resources
+C:\Users\Uczeń\Desktop\tablica dwuwymiarowa\tablica dwuwymiarowa\obj\Debug\tablica_dwuwymiarowa.Properties.Resources.resources
+C:\Users\Uczeń\Desktop\tablica dwuwymiarowa\tablica dwuwymiarowa\obj\Debug\tablica dwuwymiarowa.csproj.GenerateResource.cache
+C:\Users\Uczeń\Desktop\tablica dwuwymiarowa\tablica dwuwymiarowa\obj\Debug\tablica dwuwymiarowa.csproj.CoreCompileInputs.cache
+C:\Users\Uczeń\Desktop\tablica dwuwymiarowa\tablica dwuwymiarowa\obj\Debug\tablica dwuwymiarowa.exe
+C:\Users\Uczeń\Desktop\tablica dwuwymiarowa\tablica dwuwymiarowa\obj\Debug\tablica dwuwymiarowa.pdb
+C:\Users\Uczeń\Desktop\tablica dwuwymiarowa\tablica dwuwymiarowa\obj\Debug\tablica dwuwymiarowa.exe.config

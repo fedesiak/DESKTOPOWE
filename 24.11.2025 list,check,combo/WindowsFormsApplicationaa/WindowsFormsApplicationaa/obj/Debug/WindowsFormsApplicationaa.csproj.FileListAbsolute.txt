@@ -1,0 +1,11 @@
+C:\Users\Uczeń\Desktop\WindowsFormsApplicationaa\WindowsFormsApplicationaa\bin\Debug\WindowsFormsApplicationaa.exe.config
+C:\Users\Uczeń\Desktop\WindowsFormsApplicationaa\WindowsFormsApplicationaa\bin\Debug\WindowsFormsApplicationaa.exe
+C:\Users\Uczeń\Desktop\WindowsFormsApplicationaa\WindowsFormsApplicationaa\bin\Debug\WindowsFormsApplicationaa.pdb
+C:\Users\Uczeń\Desktop\WindowsFormsApplicationaa\WindowsFormsApplicationaa\obj\Debug\WindowsFormsApplicationaa.csproj.AssemblyReference.cache
+C:\Users\Uczeń\Desktop\WindowsFormsApplicationaa\WindowsFormsApplicationaa\obj\Debug\WindowsFormsApplicationaa.Form1.resources
+C:\Users\Uczeń\Desktop\WindowsFormsApplicationaa\WindowsFormsApplicationaa\obj\Debug\WindowsFormsApplicationaa.Properties.Resources.resources
+C:\Users\Uczeń\Desktop\WindowsFormsApplicationaa\WindowsFormsApplicationaa\obj\Debug\WindowsFormsApplicationaa.csproj.GenerateResource.cache
+C:\Users\Uczeń\Desktop\WindowsFormsApplicationaa\WindowsFormsApplicationaa\obj\Debug\WindowsFormsApplicationaa.csproj.CoreCompileInputs.cache
+C:\Users\Uczeń\Desktop\WindowsFormsApplicationaa\WindowsFormsApplicationaa\obj\Debug\WindowsFormsApplicationaa.exe
+C:\Users\Uczeń\Desktop\WindowsFormsApplicationaa\WindowsFormsApplicationaa\obj\Debug\WindowsFormsApplicationaa.pdb
+C:\Users\Uczeń\Desktop\WindowsFormsApplicationaa\WindowsFormsApplicationaa\obj\Debug\WindowsFormsApplicationaa.exe.config
